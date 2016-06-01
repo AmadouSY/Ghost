@@ -2,7 +2,7 @@
 Jeu de Ghost réalisé dans le cadre d'un projet pour un cours de programmation orienté objet à l'université Paris Diderot - Paris 7
 
 ========
-term2048
+GHOST GAME
 ========
 
 .. image:: https://img.shields.io/travis/bfontaine/term2048.png
@@ -28,26 +28,18 @@ term2048
 
 Install
 -------
-
 .. code-block::
 
-    pip install term2048
-
-To upgrade a previous installation, use:
-
-.. code-block::
-
-    pip install -U term2048
+    javac Ghost.java
 
 Play
 ----
 
 .. code-block::
 
-    term2048
+    java Ghost
 
-Then use arrow keys to move. Since version 0.2.1 VI keys (h,j,k,l) are also
-supported.
+Then use the mouse.
 
 Use ``-h`` to check the list of available options, and ``--rules`` for the
 game rules. Press ``<space>`` at any time during the game to pause the game
@@ -61,17 +53,9 @@ Clone this repo, then: ::
     [sudo] make deps
     make check
 
-Note: while ``term2048`` should work on Windows, tests are meant to run on
-UNIX-like OSes and ``term2048.keypress``-related tests could fail if run on
-Windows.
 
 Contributions
 -------------
 
-* ``--version`` flag added by @aminb
-* ``--rules`` flag added by @cardern
-* Short ``-r`` and ``-v`` flags added by @yankuangshi
-* Resume feature added by @pravj
-
-v0.2.0
+v0.1.0
 ~~~~~~
